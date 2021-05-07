@@ -1,0 +1,94 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background:#1E7820; */
+    background: url(img/wp2409705.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+}
+#rules,#fail{
+    position: fixed;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 88%;
+    top: 6%;
+    background: rgba(0,0,0,0.3);
+    border-radius: 13px;
+    height: 80vh;
+    text-align: center;
+    font-size: 2em;
+    font-family: monospace;
+    font-weight: lighter;
+    color: #fff;
+}
+#fail{
+    background: rgba(0,0,0,0.8);
+}
+#rules h3{
+    padding: 1em 0 0 1em;
+}
+#icn{
+    position: fixed;
+    left: 89%;
+    top: 10%;
+}
+#rules a{
+    text-decoration: none;
+    color: #fff;
+}
+#footer h3{
+    position: fixed;
+    color: #000;
+    font-weight: bolder;
+    font-size: 2em;
+    top: 74%;
+    left: 90%;
+}
+h2{
+    position: absolute;
+    left: 29%;
+    font-size: 2.3em;
+    top: -2%;
+    color: #fff;
+}
+#score{
+    position: absolute;
+    top: 8%;
+    left: 28%;
+}
+#scoretxt{
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+#score img{
+    width: 40%;
+}
+#foodeat{
+    position: absolute;
+    top: 8%;
+    left: 38%;
+}
+#foodeat img{
+    width: 40%;
+}
+#ftxt{
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+canvas{
+    margin-top: 10%;
+    margin-left: 13%;
+    border-radius: 2px;
+    background:rgba(0,0,0,0.45);
+}
